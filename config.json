@@ -4,7 +4,7 @@
   "name": "Oizo",
   "userimg": "https://avatars2.githubusercontent.com/u/44497977?v=4",
   "sort": "updated",
-  "order": "asc",
+  "order": "desc",
   "includeFork": false,
   "theme": "light.css",
   "types": [
