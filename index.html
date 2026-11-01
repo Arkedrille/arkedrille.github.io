@@ -1,61 +1,690 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Feels like home</title>
-    </head>
-    <body>   
-        <nav>
-            <section id="search">
-                <form action="https://www.startpage.com/sp/search" method="get">
-                    <div>
-                        <input type="search" id="q" name="q" placeholder="Recherche…" autofocus />
-                        <button>OK</button>
-                    </div>
-                </form>
-            </section>
-            
-            <ul>
-                <li>Le Bon Marché</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://cprdurbatch01:8080/webur/WelcomePortal/">UR Prd</a>/<a target="_blank" and rel="noopener noreferrer" href="http://spprurapp02.lebonmarche.local:8080/webur/WelcomePortal/">Ppr</a>/<a target="_blank" and rel="noopener noreferrer" href="http://srecurapp02.lebonmarche.local:8081/webur/WelcomePortal/">Rec</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://cprdurbatch01:8080/webur/tools">Tools Prd</a>/<a target="_blank" and rel="noopener noreferrer" href="http://cpprurbatch01:8080/webur/tools">Ppr</a>/<a target="_blank" and rel="noopener noreferrer" href="http://srecurapp02.lebonmarche.local:8080/webur/tools/">Rec</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://ssrs/Reports/favorites">SSRS Prd</a>/<a target="_blank" and rel="noopener noreferrer" href="http://ssrsppr.lebonmarche.local/Reports/favorites">Ppr</a>/<a target="_blank" and rel="noopener noreferrer" href="http://ssrsrec.lebonmarche.local/Reports/favorites">Rec</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://crm.lebonmarche.local/">GRC Prd</a>/<a target="_blank" and rel="noopener noreferrer" href="http://crm-ppr.lebonmarche.local/">Ppr</a>/<a target="_blank" and rel="noopener noreferrer" href="http://crm-rec.lebonmarche.local/">Rec</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://bandejournal.lebonmarche.local/Default.aspx?ActiveDiv=Home&magasin=Magasin%200001">Bande Journal</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://sprdxampp02.lebonmarche.local/ruche/index.php">Ruche</a></li>
-            </ul>
-            <ul>
-                <li>Aristide</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://portal.azure.com/#@lebonmarche.onmicrosoft.com/resource/subscriptions/e2ac3130-870e-4178-b9e5-dc31103fb610/resourceGroups/RGR-QUA-FC-APIM-01/providers/microsoft.insights/components/AI-QUA-WE-APIM-01/searchV1">APIM</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://suaturapp01.lebonmarche.local:8080/webur/WelcomePortal/">UR UAT</a>/<a target="_blank" and rel="noopener noreferrer" href="http://suaturapp01.lebonmarche.local:8080/webur/tools/">Tools</a></li>
-            </ul>
-            <ul>
-                <li>La Samaritaine</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://SPRDSAMURAPP01:8080/webur/WelcomePortal/">UR Prd</a>/<a target="_blank" and rel="noopener noreferrer" href="http://spprsamurapp01.lebonmarche.local:8080/webur/WelcomePortal/">Ppr</a>/<a target="_blank" and rel="noopener noreferrer" href="http://srecsamurapp01.lebonmarche.local:8080/webur/WelcomePortal/">Rec</a>/<a target="_blank" and rel="noopener noreferrer" href="http://sforsamurapp01.lebonmarche.local:8080/webur/WelcomePortal/">For</a>/</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://SPRDSAMURAPP03:8080/webur/tools">Tools Prd</a>/<a target="_blank" and rel="noopener noreferrer" href="http://spprsamurapp01.lebonmarche.local:8080/webur/tools">Ppr</a>/<a target="_blank" and rel="noopener noreferrer" href="http://srecsamurapp01.lebonmarche.local:8080/webur/tools">Rec</a>/<a target="_blank" and rel="noopener noreferrer" href="http://sforsamurapp01.lebonmarche.local:8080/webur/tools">For</a>/</li>
-            </ul>
-            <ul>
-                <li>Run</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://lebonmarche-lvmh.atlassian.net/issues/?filter=-1">Jira Run</a>/<a target="_blank" and rel="noopener noreferrer" href="https://lebonmarche-lvmh.atlassian.net/jira/software/c/projects/RM/boards/421/timeline?issueParent=82373%2C82374%2C82375%2C82722%2C83919">Ars</a>/<a target="_blank" and rel="noopener noreferrer" href="https://lebonmarche-lvmh.atlassian.net/jira/software/c/projects/RM/boards/421/timeline?issueParent=74591%2C78538">Sam</a>/</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://glpi.lebonmarche.local/front/ticket.php">GLPI</a>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://lebonmarche-lvmh.atlassian.net/wiki/spaces/Sam/overview">Confluence Ars</a>/<a  target="_blank" and rel="noopener noreferrer" href="https://lebonmarche-lvmh.atlassian.net/wiki/spaces/CRM/overview">Sam</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="http://wiki-is.lebonmarche.local/doku.php?id=start">Dokuwiki IS</a>/<a  target="_blank" and rel="noopener noreferrer" href="http://wiki-it.lebonmarche.local/doku.php?id=start">IT</a>/</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://www.cegidlife.com/fr/">CegidLife</a></li>
-            </ul>
-            <ul>
-                <li>News</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://news.ycombinator.com/">Hacker News</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://korben.info/">Korben</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://www.developpez.com/newsletter/">Developpez.com</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://metalinjection.net/category/upcoming-releases/heavy-new-releases">Metal Injection</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://www.404media.co/">404 media</a></li>
-            </ul>
-            <ul>
-                <li>Perso</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://mail.proton.me/u/0/inbox">P Mail</a>/<a target="_blank" and rel="noopener noreferrer" href="https://drive.proton.me/u/3/">Drive</a>/<a target="_blank" and rel="noopener noreferrer" href="https://docs.proton.me/u/3">Docs</a>/</li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://srv-iknc.fr2.quickconnect.to/?launchApp=SYNO.SDS.Drive.Application#MyDrive">Syn Drive</a></li>
-                <li><a target="_blank" and rel="noopener noreferrer" href="https://www.dealabs.com/">Dealabs</a></li>
-            </ul>
-        </nav>    
-    </body>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Bois-le-Roi">
+<title>Bois-le-Roi — Départs &amp; Météo</title>
+<!--
+  ============================================================================
+  TABLEAU DE BORD PERMANENT — Gare de Bois-le-Roi (ligne R Transilien) + météo
+  Conçu pour iPad en affichage continu (mode kiosque), écran toujours allumé.
+
+  >>> CONFIGURATION OBLIGATOIRE :
+  1. Crée un compte gratuit sur https://prim.iledefrance-mobilites.fr
+  2. Génère un jeton API dans "Mon compte → Jetons d'authentification"
+  3. Colle ce jeton ci-dessous (ligne CONFIG.apiKey)
+  
+  ⚠️ Pour un usage privé uniquement — la clé est visible dans le code source.
+  ============================================================================
+-->
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #080a0e;
+    color: #e9edf4;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: none;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 2vmin 2.4vmin;
+    gap: 1.5vmin;
+  }
+
+  /* ---------- En-tête ---------- */
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    padding-bottom: 1.2vmin;
+    border-bottom: 1px solid #1d2330;
+  }
+  #clock {
+    font-size: 7vmin;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  #date {
+    font-size: 2.6vmin;
+    color: #8792a6;
+    text-transform: capitalize;
+  }
+
+  /* ---------- Alertes trafic ---------- */
+  #alerts { flex: 0 0 auto; display: none; flex-direction: column; gap: 0.9vmin; }
+  #alerts.on { display: flex; }
+  .alert {
+    display: flex;
+    align-items: center;
+    gap: 1.4vmin;
+    background: #2a1508;
+    border-left: 0.7vmin solid #ff9f43;
+    border-radius: 1vmin;
+    padding: 1.2vmin 1.8vmin;
+    font-size: 2.3vmin;
+    line-height: 1.35;
+  }
+  .alert.severe { background: #2b0d0d; border-left-color: #ff5252; }
+  .alert .ico { font-size: 3vmin; flex: 0 0 auto; }
+  .alert .txt { overflow: hidden; }
+
+  /* ---------- Corps ---------- */
+  main {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: 1.58fr 1fr;
+    gap: 1.8vmin;
+  }
+
+  .panel {
+    background: #10141b;
+    border: 1px solid #1b2230;
+    border-radius: 1.8vmin;
+    padding: 2vmin 2.2vmin;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .panel-title {
+    font-size: 2vmin;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #6d4aff;
+    flex: 0 0 auto;
+  }
+  .panel-sub {
+    font-size: 2.2vmin;
+    color: #8792a6;
+    margin-top: 0.5vmin;
+    flex: 0 0 auto;
+  }
+
+  /* ---------- Liste départs ---------- */
+  #deps {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1.4vmin;
+  }
+
+  .dep {
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
+    padding: 1.1vmin 0;
+    border-top: 1px solid #171d28;
+  }
+  .dep:first-child { border-top: none; }
+
+  .dep-time {
+    font-size: 5.4vmin;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    min-width: 13vmin;
+    line-height: 1.05;
+  }
+  .dep-time .late {
+    display: block;
+    font-size: 1.9vmin;
+    font-weight: 600;
+    color: #ffb020;
+    letter-spacing: 0;
+  }
+  .dep-time.cancelled { color: #ff5252; text-decoration: line-through; opacity: 0.75; }
+
+  .dep-mid { flex: 1 1 auto; min-width: 0; }
+  .dep-dir {
+    font-size: 2.9vmin;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dep-sub {
+    font-size: 1.9vmin;
+    color: #74809a;
+    margin-top: 0.4vmin;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .dep-cd {
+    flex: 0 0 auto;
+    font-size: 2.6vmin;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    padding: 0.8vmin 1.8vmin;
+    border-radius: 999px;
+    background: #16281c;
+    color: #52d98a;
+    white-space: nowrap;
+  }
+  .dep-cd.soon { background: #2c2410; color: #ffb020; }
+  .dep-cd.now  { background: #2c1010; color: #ff6b6b; }
+
+  .empty {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.6vmin;
+    color: #5d6880;
+    line-height: 1.5;
+    padding: 2vmin;
+  }
+
+  /* ---------- Météo ---------- */
+  .wx-now {
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
+    margin-top: 1.6vmin;
+    flex: 0 0 auto;
+  }
+  .wx-ico { font-size: 9vmin; line-height: 1; }
+  .wx-temp {
+    font-size: 8.5vmin;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .wx-label { font-size: 2.2vmin; color: #b3bccd; margin-top: 0.8vmin; }
+  .wx-feel  { font-size: 1.9vmin; color: #74809a; margin-top: 0.4vmin; }
+
+  .wx-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vmin;
+    margin-top: 2vmin;
+    flex: 0 0 auto;
+  }
+  .wx-day {
+    background: #161b24;
+    border-radius: 1.2vmin;
+    padding: 1.2vmin 0.8vmin;
+    text-align: center;
+  }
+  .wx-day .d { font-size: 1.7vmin; color: #74809a; text-transform: uppercase; letter-spacing: 0.08em; }
+  .wx-day .i { font-size: 3.4vmin; margin: 0.5vmin 0; }
+  .wx-day .t { font-size: 2.1vmin; font-variant-numeric: tabular-nums; }
+  .wx-day .t .lo { color: #74809a; }
+
+  /* ---------- Pied ---------- */
+  footer {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7vmin;
+    color: #55607a;
+    padding-top: 0.4vmin;
+  }
+  #status::before {
+    content: "";
+    display: inline-block;
+    width: 1.1vmin; height: 1.1vmin;
+    border-radius: 50%;
+    background: #52d98a;
+    margin-right: 0.9vmin;
+    vertical-align: middle;
+  }
+  #status.err::before { background: #ff5252; }
+</style>
+</head>
+<body>
+
+<header>
+  <div id="clock">--:--</div>
+  <div id="date"></div>
+</header>
+
+<div id="alerts"></div>
+
+<main>
+  <section class="panel">
+    <div class="panel-title">Prochains départs</div>
+    <div class="panel-sub">→ Paris Gare de Lyon (Ligne R)</div>
+    <div id="deps"><div class="empty">Initialisation…</div></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-title">Météo</div>
+    <div class="panel-sub">Bois-le-Roi</div>
+    <div class="wx-now">
+      <div class="wx-ico" id="wxIco">·</div>
+      <div>
+        <div class="wx-temp" id="wxTemp">--°</div>
+        <div class="wx-label" id="wxLabel">—</div>
+        <div class="wx-feel" id="wxFeel">—</div>
+      </div>
+    </div>
+    <div class="wx-grid" id="wxDays"></div>
+  </section>
+</main>
+
+<footer>
+  <div id="status">Prêt</div>
+  <div id="updated"></div>
+</footer>
+
+<script>
+/* ===========================================================================
+   CONFIGURATION — À REMPLIR AVANT UTILISATION
+   =========================================================================== */
+const CONFIG = {
+
+  // --- API TRANSPORTEUR (PRIM Île-de-France Mobilités) -----------------------
+  // Crée un compte gratuit sur https://prim.iledefrance-mobilites.fr
+  // puis génère un jeton dans "Mon compte → Jetons d'authentification"
+  apiKey: "COLLE_TON_JETON_PRIM_ICI",
+
+  // URL de base de l'API PRIM (endpoint Navitia compatible)
+  apiBase: "https://api.idfm.iledefrance-mobilites.fr/navitia/v1",
+
+  // Nom de l'en-tête pour l'auth (spécifique à PRIM)
+  authHeader: "apiKey",
+
+  // Zone géographique (Île-de-France)
+  coverage: "fr-idf",
+
+  // Requête pour trouver la gare (laisser tel quel)
+  placeQuery: "Gare de Bois-le-Roi",
+
+  // ID de l'arrêt — laissé vide pour auto-découverte au premier lancement
+  stopAreaId: "",
+
+  // Filtre direction (insensible à la casse)
+  directionFilter: ["gare de lyon", "paris"],
+
+  // Nombre de départs affichés simultanément
+  nbDepartures: 5,
+
+  // --- MÉTÉO (Open-Meteo, gratuit, sans clé) -------------------------------
+  weather: {
+    lat: 48.474,
+    lon: 2.704,
+    label: "Bois-le-Roi"
+  },
+
+  // --- AUTRE --------------------------------------------------------------
+  refreshSeconds: 60,    // mise à jour des données toutes les X secondes
+  reloadHour: 4          // rechargement complet à cette heure (anti-fuite mémoire)
+};
+
+/* ===========================================================================
+   UTILITAIRES
+   =========================================================================== */
+
+function parseNavitiaDate(s) {
+  const m = /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})$/.exec(s || "");
+  if (!m) return null;
+  return new Date(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6]);
+}
+
+function hhmm(d) {
+  return String(d.getHours()).padStart(2, "0") + ":" +
+         String(d.getMinutes()).padStart(2, "0");
+}
+
+function esc(s) {
+  return String(s == null ? "" : s)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+const WMO = {
+  0:["☀️","Ciel dégagé"],       1:["🌤️","Peu nuageux"],
+  2:["⛅","Partiellement nuageux"],3:["☁️","Couvert"],
+  45:["🌫️","Brouillard"],        48:["🌫️","Brouillard givrant"],
+  51:["🌦️","Bruine faible"],     53:["🌦️","Bruine"],      55:["🌦️","Bruine forte"],
+  61:["🌧️","Pluie faible"],      63:["🌧️","Pluie"],       65:["🌧️","Pluie forte"],
+  71:["🌨️","Neige faible"],      73:["🌨️","Neige"],       75:["❄️","Neige forte"],
+  80:["🌦️","Averses"],           81:["🌦️","Averses"],     82:["⛈️","Averses violentes"],
+  95:["⛈️","Orage"]
+};
+function wmo(code) { return WMO[code] || ["🌡️","En cours"]; }
+
+const DAYS = ["dim","lun","mar","mer","jeu","ven","sam"];
+const MONTHS = ["janvier","février","mars","avril","mai","juin","juillet",
+                "août","septembre","octobre","novembre","décembre"];
+const FULLDAYS = ["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
+
+/* ===========================================================================
+   APPELS API
+   =========================================================================== */
+
+let stopAreaCache = CONFIG.stopAreaId || null;
+
+async function apiGet(path, params) {
+  const qs = params ? "?" + new URLSearchParams(params).toString() : "";
+  const url = CONFIG.apiBase.replace(/\/$/, "") + path + qs;
+
+  const headers = {};
+  if (CONFIG.apiKey && CONFIG.apiKey !== "COLLE_TON_JETON_PRIM_ICI") {
+    headers[CONFIG.authHeader] = CONFIG.apiKey;
+  }
+
+  const res = await fetch(url, { headers, cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status + " sur " + path);
+  return res.json();
+}
+
+async function resolveStopArea() {
+  if (stopAreaCache) return stopAreaCache;
+
+  // Cherche l'ID de l'arrêt via l'autocomplétion
+  const json = await apiGet("/coverage/" + CONFIG.coverage + "/places", {
+    q: CONFIG.placeQuery, count: 5, type: "stop_area"
+  });
+
+  const places = json.places || [];
+  const hit = places.find(p => p.embedded_type === "stop_area" || p.embedded_type === "stop_point");
+  if (!hit) throw new Error("Arrêt introuvable : " + CONFIG.placeQuery);
+
+  stopAreaCache = hit.id;
+  return stopAreaCache;
+}
+
+async function fetchDepartures() {
+  const id = await resolveStopArea();
+
+  // Récupère les prochains départs
+  const json = await apiGet(
+    "/coverage/" + CONFIG.coverage + "/stop_areas/" + encodeURIComponent(id) + "/departures",
+    { count: 40, depth: 3 }
+  );
+
+  const now = new Date();
+  const filters = CONFIG.directionFilter.map(f => f.toLowerCase());
+
+  // Construit la liste des départs filtrés et triés
+  const list = (json.departures || [])
+    .map(d => {
+      const dt = d.stop_date_time || {};
+      const dep = parseNavitiaDate(dt.departure_date_time);
+      const base = parseNavitiaDate(dt.base_departure_date_time) || dep;
+      if (!dep) return null;
+
+      const di = d.display_informations || {};
+      const direction = di.direction || di.headsign || "";
+
+      return {
+        dep, base,
+        direction,
+        headsign: di.headsign || "",
+        line: (d.route && d.route.line && d.route.line.code) || di.commercial_mode || "",
+        label: di.label || di.name || "",
+        delayMin: Math.round((dep - base) / 60000),
+        cancelled: (dt.additional_informations || []).indexOf("cancelled") !== -1,
+        disruptionIds: (d.links || [])
+          .filter(l => l.rel === "disruptions" && l.id)
+          .map(l => l.id)
+      };
+    })
+    .filter(Boolean)
+    .filter(x => x.dep >= new Date(now.getTime() - 90000))
+    .filter(x => {
+      if (!filters.length) return true;
+      const hay = (x.direction + " " + x.label).toLowerCase();
+      return filters.some(f => hay.indexOf(f) !== -1);
+    })
+    .sort((a, b) => a.dep - b.dep);
+
+  return list.slice(0, CONFIG.nbDepartures);
+}
+
+async function fetchDisruptions(departures) {
+  const ids = [];
+  departures.forEach(d => d.disruptionIds.forEach(id => {
+    if (ids.indexOf(id) === -1) ids.push(id);
+  }));
+  if (!ids.length) return [];
+
+  const out = [];
+  for (const id of ids.slice(0, 3)) {
+    try {
+      const json = await apiGet(
+        "/coverage/" + CONFIG.coverage + "/disruptions/" + encodeURIComponent(id)
+      );
+      const dis = (json.disruptions || [])[0];
+      if (!dis) continue;
+      const msg = (dis.messages || []).find(m => m.text) || {};
+      const effect = (dis.severity && dis.severity.effect) || "";
+      out.push({
+        text: msg.text || dis.cause || "Perturbation en cours sur la ligne R",
+        severe: ["NO_SERVICE", "SIGNIFICANT_DELAYS", "REDUCED_SERVICE"].indexOf(effect) !== -1
+      });
+    } catch (e) { /* ignore */ }
+  }
+  return out;
+}
+
+async function fetchWeather() {
+  const p = new URLSearchParams({
+    latitude: CONFIG.weather.lat,
+    longitude: CONFIG.weather.lon,
+    current: "temperature_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m",
+    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max",
+    timezone: "Europe/Paris",
+    forecast_days: "3"
+  });
+  const res = await fetch("https://api.open-meteo.com/v1/forecast?" + p.toString(),
+                          { cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status + " (météo)");
+  return res.json();
+}
+
+/* ===========================================================================
+   AFFICHAGE
+   =========================================================================== */
+
+function renderClock() {
+  const n = new Date();
+  document.getElementById("clock").textContent = hhmm(n);
+  document.getElementById("date").textContent =
+    FULLDAYS[n.getDay()] + " " + n.getDate() + " " + MONTHS[n.getMonth()] + " " + n.getFullYear();
+}
+
+function renderDepartures(list) {
+  const box = document.getElementById("deps");
+
+  if (!list.length) {
+    box.innerHTML = '<div class="empty">Aucun départ vers Paris<br>dans les prochaines heures.<br>' +
+                    '<span style="font-size:2vmin">Service reprend le matin.</span></div>';
+    return;
+  }
+
+  const now = new Date();
+
+  box.innerHTML = list.map(d => {
+    const mins = Math.round((d.dep - now) / 60000);
+    let cdClass = "", cdText = "";
+    if (mins <= 0)      { cdClass = "now";  cdText = "à quai"; }
+    else if (mins <= 2) { cdClass = "now";  cdText = mins + " min"; }
+    else if (mins <= 5) { cdClass = "soon"; cdText = mins + " min"; }
+    else                { cdText = mins + " min"; }
+
+    const lateTag = d.delayMin >= 1
+      ? '<span class="late">retard +' + d.delayMin + " min</span>"
+      : (d.delayMin <= -1 ? '<span class="late">avance ' + d.delayMin + " min</span>" : "");
+
+    const sub = [
+      d.label || d.headsign || "",
+      d.line ? "Ligne " + d.line : ""
+    ].filter(Boolean).join(" · ");
+
+    return '' +
+      '<div class="dep">' +
+        '<div class="dep-time' + (d.cancelled ? " cancelled" : "") + '">' +
+          hhmm(d.dep) + lateTag +
+        '</div>' +
+        '<div class="dep-mid">' +
+          '<div class="dep-dir">' + esc(d.direction) + '</div>' +
+          '<div class="dep-sub">' + esc(sub) + '</div>' +
+        '</div>' +
+        '<div class="dep-cd ' + cdClass + '">' +
+          (d.cancelled ? "supprimé" : cdText) +
+        '</div>' +
+      '</div>';
+  }).join("");
+}
+
+function renderAlerts(alerts) {
+  const box = document.getElementById("alerts");
+  if (!alerts.length) { box.className = ""; box.innerHTML = ""; return; }
+  box.className = "on";
+  box.innerHTML = alerts.slice(0, 2).map(a =>
+    '<div class="alert' + (a.severe ? " severe" : "") + '">' +
+      '<div class="ico">' + (a.severe ? "⛔" : "⚠️") + '</div>' +
+      '<div class="txt">' + esc(a.text) + '</div>' +
+    '</div>'
+  ).join("");
+}
+
+function renderWeather(w) {
+  const cur = w.current || {};
+  const [ico, label] = wmo(cur.weather_code);
+
+  document.getElementById("wxIco").textContent = ico;
+  document.getElementById("wxTemp").textContent = Math.round(cur.temperature_2m) + "°";
+  document.getElementById("wxLabel").textContent = label;
+
+  const bits = ["ressenti " + Math.round(cur.apparent_temperature) + "°"];
+  if (cur.wind_speed_10m != null) bits.push("vent " + Math.round(cur.wind_speed_10m) + " km/h");
+  if (cur.precipitation > 0) bits.push("pluie " + cur.precipitation.toFixed(1) + " mm");
+  document.getElementById("wxFeel").textContent = bits.join(" · ");
+
+  const daily = w.daily || {};
+  const days = (daily.time || []).slice(0, 3);
+  document.getElementById("wxDays").innerHTML = days.map((iso, i) => {
+    const dt = new Date(iso + "T12:00:00");
+    const [, lab] = wmo((daily.weather_code || [])[i]);
+    const hi = Math.round((daily.temperature_2m_max || [])[i]);
+    const lo = Math.round((daily.temperature_2m_min || [])[i]);
+    const pp = (daily.precipitation_probability_max || [])[i];
+    return '<div class="wx-day">' +
+      '<div class="d">' + (i === 0 ? "auj." : DAYS[dt.getDay()]) + '</div>' +
+      '<div class="i" title="' + esc(lab) + '">' + wmo((daily.weather_code || [])[i])[0] + '</div>' +
+      '<div class="t">' + hi + '° <span class="lo">' + lo + '°</span></div>' +
+      '<div class="d" style="margin-top:.4vmin">' + (pp != null ? "💧" + pp + "%" : "") + '</div>' +
+    '</div>';
+  }).join("");
+}
+
+function setStatus(ok, text) {
+  const el = document.getElementById("status");
+  el.className = ok ? "" : "err";
+  el.textContent = text;
+}
+
+/* ===========================================================================
+   BOUCLE PRINCIPALE
+   =========================================================================== */
+
+let consecutiveErrors = 0;
+
+async function refresh() {
+  let okSomething = false;
+
+  try {
+    const deps = await fetchDepartures();
+    renderDepartures(deps);
+    okSomething = true;
+
+    try {
+      renderAlerts(await fetchDisruptions(deps));
+    } catch (e) { renderAlerts([]); }
+  } catch (err) {
+    console.error(err);
+    document.getElementById("deps").innerHTML =
+      '<div class="empty">Impossible de récupérer les horaires.<br>' +
+      '<span style="font-size:1.9vmin">' + esc(err.message) +
+      '<br><br>Vérifie que la clé API PRIM est correcte.</span></div>';
+  }
+
+  try {
+    renderWeather(await fetchWeather());
+    okSomething = true;
+  } catch (err) {
+    console.error(err);
+  }
+
+  if (okSomething) {
+    consecutiveErrors = 0;
+    setStatus(true, "À jour");
+    document.getElementById("updated").textContent =
+      "Mis à jour : " + hhmm(new Date());
+  } else {
+    consecutiveErrors++;
+    setStatus(false, "Hors ligne (" + consecutiveErrors + ")");
+  }
+}
+
+function tick() {
+  renderClock();
+
+  // Rafraîchissement visuel des compteurs sans appeler l'API
+  document.querySelectorAll(".dep").forEach((row, i) => {
+    const t = row.querySelector(".dep-time");
+    const cd = row.querySelector(".dep-cd");
+    if (!t || !cd || cd.textContent === "supprimé") return;
+
+    const txt = (t.firstChild && t.firstChild.nodeValue || "").trim();
+    if (!/^\d{2}:\d{2}$/.test(txt)) return;
+
+    const [h, m] = txt.split(":").map(Number);
+    const now = new Date();
+    let target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), h, m, 0);
+    if (target < now) target.setDate(target.getDate() + 1);
+
+    const mins = Math.round((target - now) / 60000);
+    cd.textContent = mins <= 0 ? "à quai" : mins + " min";
+    cd.className = "dep-cd " + (mins <= 2 ? "now" : mins <= 5 ? "soon" : "");
+  });
+}
+
+/* --- Démarrage --- */
+renderClock();
+refresh();
+setInterval(tick, 1000);
+setInterval(refresh, Math.max(20, CONFIG.refreshSeconds) * 1000);
+
+// Rechargement quotidien à 4h00 pour éviter les fuites mémoire
+setInterval(function () {
+  if (new Date().getHours() === CONFIG.reloadHour &&
+      new Date().getMinutes() === 0) {
+    location.reload();
+  }
+}, 60000);
+
+window.addEventListener("online", refresh);
+document.addEventListener("visibilitychange", function () {
+  if (!document.hidden) refresh();
+});
+</script>
+</body>
 </html>
